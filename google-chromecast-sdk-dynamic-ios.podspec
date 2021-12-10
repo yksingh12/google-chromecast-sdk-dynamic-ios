@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
     cs.source_files = 'GoogleCastSDK-ios-4.7.0_dynamic/GoogleCast.framework/Headers/*.h'
     cs.preserve_paths = 'GoogleCastSDK-ios-4.7.0_dynamic/GoogleCast.framework'
     cs.requires_arc = true
-    #cs.vendored_frameworks = 'GoogleCastSDK-ios-4.7.0_dynamic/GoogleCast.framework'
+    cs.vendored_frameworks = 'GoogleCastSDK-ios-4.7.0_dynamic/GoogleCast.framework'
     cs.libraries = 'c++'
     cs.resources =  'GoogleCastSDK-ios-4.7.0_dynamic/GoogleCast.framework/GoogleCastCoreResources.bundle', 'GoogleCastSDK-ios-4.7.0_dynamic/GoogleCast.framework/GoogleCastUIResources.bundle'      
   end
